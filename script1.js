@@ -8,7 +8,7 @@ function valid(form) {
     if (price_ok.test(price)==false || price<0) {
         fail="Неправильно введена цена товара!";
     }
-    else if (amount_ok.test(kol)==false || amount<0) {
+    else if (amount_ok.test(kol)==false || kol<0) {
         fail="Неправильно введено количество товара!";
     }
     if (fail) {
