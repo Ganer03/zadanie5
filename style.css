@@ -1,1 +1,10 @@
-
+body{
+  margin: auto;
+  width: 100%;
+}
+.form{
+  max-width: 960px;
+  background: linear-gradient(to top, rgb(40, 110, 178), rgb(190, 210, 215));
+  padding: 20px;
+  text-align: center;
+}
