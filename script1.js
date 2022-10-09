@@ -13,6 +13,8 @@ function valid(form) {
     }
     if (otvet) {
         alert(otvet);
+        if(result!="")
+            result.innerHTML=""l
     }
     else {
         result.innerHTML="Стоимость заказа:"+price*kol+" "+"рублей.";
