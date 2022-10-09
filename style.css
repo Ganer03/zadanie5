@@ -13,6 +13,8 @@ body{
 button{
   margin: auto;
   width: 40%;
+  border-radius: 8px;
+  background-color: dodgerblue;
 }
 #form1{
   display: grid;
