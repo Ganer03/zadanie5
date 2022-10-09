@@ -6,13 +6,13 @@ function valid(form) {
     var price_ok=/[0-9.]/;
     var amount_ok=/[0-9]/;
     if (price_ok.test(price)==false || price<0) {
-        fail="Неправильно введена цена товара!";
+        otvet="Неправильно введена цена товара!";
     }
     else if (amount_ok.test(kol)==false || kol<0) {
-        fail="Неправильно введено количество товара!";
+        otvet="Неправильно введено количество товара!";
     }
-    if (fail) {
-        alert(fail);
+    if (otvet) {
+        alert(otvet);
     }
     else {
         result.innerHTML="Стоимость заказа:"+price*kol+" "+"рублей.";
