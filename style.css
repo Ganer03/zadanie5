@@ -8,6 +8,7 @@ body{
   background: linear-gradient(to top, rgb(40, 110, 178), rgb(190, 210, 215));
   padding: 20px;
   text-align: center;
+  margin-block-end: 30px;
 }
 button{
   margin: auto;
@@ -24,6 +25,8 @@ button{
 #field1, #field2{
   width: 80%;
   margin: auto;
+  height: 30px;
+  border-radius: 8px;
 }
 #label1, #label2, #result {
   font-size: 20px;
