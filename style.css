@@ -5,8 +5,7 @@ body{
 .form{
   margin: auto;
   max-width: 960px;
-  background: linear-gradient(to top, rgb(40, 110, 178), rgb(190, 210, 215));
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   margin-block-end: 30px;
 }
@@ -34,9 +33,6 @@ button{
 #label1, #label2, #result {
   font-size: 20px;
   color: rgb(2, 26, 48);
-  font-weight: bold;
-  text-decoration: underline;
-  font-family: 'Times New Roman', Times, serif;
 }
 #result{
   font-size: 30px;
